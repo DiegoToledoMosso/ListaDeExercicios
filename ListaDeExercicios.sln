@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaDeExercicios.ConsoleAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversãodeTemperatura.ConsoleApp", "ConversãodeTemperatura.ConsoleApp\ConversãodeTemperatura.ConsoleApp.csproj", "{F74252D6-0CD7-4A69-B694-6432E397FDCA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadorDeSalarioVendedor.ConsoleApp", "CalculadorDeSalarioVendedor.ConsoleApp\CalculadorDeSalarioVendedor.ConsoleApp.csproj", "{AA45A76C-DC73-4EF3-9BFF-9495F5FB8246}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F74252D6-0CD7-4A69-B694-6432E397FDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F74252D6-0CD7-4A69-B694-6432E397FDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F74252D6-0CD7-4A69-B694-6432E397FDCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA45A76C-DC73-4EF3-9BFF-9495F5FB8246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA45A76C-DC73-4EF3-9BFF-9495F5FB8246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA45A76C-DC73-4EF3-9BFF-9495F5FB8246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA45A76C-DC73-4EF3-9BFF-9495F5FB8246}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
