@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35913.81 d17.13
+VisualStudioVersion = 17.13.35913.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaDeExercicios.ConsoleApp", "ListaDeExercicios.ConsoleApp\ListaDeExercicios.ConsoleApp.csproj", "{8CEF415A-8A96-4D47-8B31-F08561EDAB83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversãodeTemperatura.ConsoleApp", "ConversãodeTemperatura.ConsoleApp\ConversãodeTemperatura.ConsoleApp.csproj", "{F74252D6-0CD7-4A69-B694-6432E397FDCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8CEF415A-8A96-4D47-8B31-F08561EDAB83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CEF415A-8A96-4D47-8B31-F08561EDAB83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CEF415A-8A96-4D47-8B31-F08561EDAB83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F74252D6-0CD7-4A69-B694-6432E397FDCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F74252D6-0CD7-4A69-B694-6432E397FDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F74252D6-0CD7-4A69-B694-6432E397FDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F74252D6-0CD7-4A69-B694-6432E397FDCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
