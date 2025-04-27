@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompararDecidirNumeros.Cons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumerosEmOrdemDecrescente.ConsoleApp", "NumerosEmOrdemDecrescente.ConsoleApp\NumerosEmOrdemDecrescente.ConsoleApp.csproj", "{EB81A9E7-F576-436C-BDCA-C77A7877BA92}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndiceDeMassaCorporal.ConsoleApp", "IndiceDeMassaCorporal.ConsoleApp\IndiceDeMassaCorporal.ConsoleApp.csproj", "{5327D8C2-73DA-4D99-A736-C9146FD505DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{EB81A9E7-F576-436C-BDCA-C77A7877BA92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB81A9E7-F576-436C-BDCA-C77A7877BA92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB81A9E7-F576-436C-BDCA-C77A7877BA92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5327D8C2-73DA-4D99-A736-C9146FD505DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5327D8C2-73DA-4D99-A736-C9146FD505DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5327D8C2-73DA-4D99-A736-C9146FD505DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5327D8C2-73DA-4D99-A736-C9146FD505DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
