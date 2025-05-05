@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaDoTerreno.ConsoleApp", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PadariaHotPao.ConsoleApp", "PadariaHotPao.ConsoleApp\PadariaHotPao.ConsoleApp.csproj", "{6AA4FDF5-2554-4F5C-8218-65324317C9EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdadeEmDias.ConsoleApp", "IdadeEmDias.ConsoleApp\IdadeEmDias.ConsoleApp.csproj", "{9FED603B-2A3A-450B-8D4F-5811291A59FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{6AA4FDF5-2554-4F5C-8218-65324317C9EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AA4FDF5-2554-4F5C-8218-65324317C9EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AA4FDF5-2554-4F5C-8218-65324317C9EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FED603B-2A3A-450B-8D4F-5811291A59FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FED603B-2A3A-450B-8D4F-5811291A59FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FED603B-2A3A-450B-8D4F-5811291A59FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FED603B-2A3A-450B-8D4F-5811291A59FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
