@@ -9,35 +9,44 @@
 
                 Console.Clear();
                 Console.WriteLine("--------------------------------------------------");
-                Console.WriteLine("Olá, somos a imobiliária Imóbilis, aqui iremos calcular área do seu terreno");
+                Console.WriteLine("Olá, somos a Padaria Hotpão");
                 Console.WriteLine("--------------------------------------------------");
 
-                Console.WriteLine("Para começar, irei precisar medidas do seu terreno:");
+                Console.WriteLine("Para começar, irei precisar da quantidade de pães e broas vendidos hoje:");
                 Console.WriteLine("----------------------------------------");
-                Console.WriteLine("Digite a largura do terreno em metros:");
+                Console.WriteLine("Digite a quantidade de pães vendidos:");
 
-
-                double terrenoLargura = Double.Parse(Console.ReadLine());
-
-                Console.WriteLine("----------------------------------------");
-                Console.WriteLine("Digite o comprimento do terreno em metros:");
-
-
-                double terrenoComprimento = Double.Parse(Console.ReadLine());
+                decimal paesVendidos = 0m;
+                paesVendidos = Convert.ToDecimal(Console.ReadLine());
 
                 Console.WriteLine("----------------------------------------");
+                Console.WriteLine("Digite a quantidade de broas vendidas:");
 
-                if (terrenoLargura == terrenoComprimento)
-                {
-                    Console.WriteLine("Não vendemos terrenos que não seja retangular!!");
+                decimal broasVendidas = 0m;
+                broasVendidas = Convert.ToDecimal(Console.ReadLine());
 
-                }
-                else
-                {
-                    double area = terrenoLargura * terrenoComprimento;
-                    Console.WriteLine($"A área do terreno é: {area}metros quadrados.");
-                }
+                Console.WriteLine("----------------------------------------");
 
+                decimal pao = 0m;
+                pao = paesVendidos * 0.12m;
+
+                decimal broas = 0m;
+                broas = broasVendidas * 1.5m;
+
+                decimal valorTotal = pao + broas;
+
+                decimal valorPoupanca = 0m;
+                valorPoupanca = valorTotal * 0.1m;
+
+                Console.WriteLine("Valor total arrecadado foi de " + valorTotal + " reais.");
+
+
+                Console.WriteLine("----------------------------------------");
+
+
+                Console.WriteLine("Valor a ser guardado na poupança:" + valorPoupanca + " reais.");
+
+                Console.WriteLine("----------------------------------------");
 
                 Console.Write("Deseja continuar? (S/N): ");
                 string opcaoContinuar = Console.ReadLine().ToUpper();
