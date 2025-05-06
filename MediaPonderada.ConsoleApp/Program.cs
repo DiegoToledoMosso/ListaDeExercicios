@@ -7,7 +7,6 @@
             while (true)
             {
 
-
                 Console.Clear();
                 Console.WriteLine("--------------------------------------------------");
                 Console.WriteLine("Olá, aqui iremos calcular a média ponderada de suas provas");
